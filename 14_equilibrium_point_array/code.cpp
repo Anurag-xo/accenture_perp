@@ -4,7 +4,7 @@ using namespace std;
 int equilibrium(int n, vector<int> v) {
   
   int right = 0;
-  int left = 0;A
+  int left = 0;
 
   for(int i = 0; i < n; i++) {
     right += v[i];
